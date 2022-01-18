@@ -7,8 +7,8 @@ today_date = dt.datetime.now()
 today_month = today_date.month
 today_day = today_date.day
 
-my_email = "pratikjh1011@gmail.com"
-password = "Testing@100"
+my_email = ""
+password = ""
 
 with open("birthdays.csv", mode="r", newline="") as birth_data:
     data = csv.DictReader(birth_data)
